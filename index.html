@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>WunderList</title>
+    <link rel="icon" type="image/icon type" href="icon.png" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div id="wrapper">
+      <header>
+        <div id="page-banner">
+          <h1 class="title">WunderList (v1.0)</h1>
+          <p>Keep track of your To-Do items efficiently</p>
+          <form id="search-todos">
+            <input type="text" placeholder="Search for to-do items.." />
+          </form>
+        </div>
+      </header>
+      <div id="todo-list">
+        <h2 class="title">Add a To-Do</h2>
+        <ul>
+          <li>
+            <span class="content">Complete Coding Challenge</span>
+            <span class="delete">delete</span>
+            <span class="done">done</span>
+          </li>
+          <li>
+            <span class="content">Buy Groceries from the market</span>
+            <span class="delete">delete</span>
+            <span class="done">done</span>
+          </li>
+          <li>
+            <span class="content">Listen to audiobook</span>
+            <span class="delete">delete</span>
+            <span class="done">done</span>
+          </li>
+          <li>
+            <span class="content">Workout for 30 mins</span>
+            <span class="delete">delete</span>
+            <span class="done">done</span>
+          </li>
+        </ul>
+      </div>
+      <form id="add-todos">
+        <label for="completed">Reset all completed Todos</label>
+        <input type="button" id="completed" />
+        <input type="text" placeholder="Add a to-do item.." />
+        <button>Add</button>
+      </form>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
